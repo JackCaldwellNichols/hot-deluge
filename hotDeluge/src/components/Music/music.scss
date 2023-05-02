@@ -1,0 +1,37 @@
+@import "../../global.scss";
+
+.music{
+    height: max-content;
+    width: 100vw;
+    @include mobile{
+        display: none;
+       }
+    .musicWrapper{
+        background-color: black;
+        width: 100%;
+        position: relative;
+     
+        .iconContainer{
+            color: white;
+            position: absolute;
+            bottom: 100px;
+            display: flex;
+            justify-content: center;
+            
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            left: 50px;
+            cursor: pointer;
+            .iconContainerLink{
+                text-decoration: none;
+                color: white;
+            }
+            .videoIcon{
+                font-size: 80px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@import "../../global.scss";
+
+.band{
+    background-color: black;
+    height: max-content;
+    color: white;
+    font-family: 'Nunito Sans';
+    padding: 40px;
+    .bandWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 10px;
+
+        .bandBio{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            h1{
+                color: rgb(195, 195, 195);
+                font-weight: 200;
+            
+                letter-spacing: 3px;
+                
+            }
+            h5{
+                color: white;
+                line-height: 30px;
+                font-weight: 200;
+            }
+        }
+        .bandMembers{
+            display: flex;
+            align-items: center;
+            gap: 90px;
+            margin-top: 20px;
+            @include mobile{
+               flex-wrap: wrap;
+                justify-content: center;
+               }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+@import "../../global.scss";
+
+.albums {
+    background-color: black;
+    height: max-content;
+    padding: 40px;
+    font-family: 'Nunito Sans';
+    @include mobile{
+        padding: 20px;
+       }
+    h1{
+        color: rgb(195, 195, 195);
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .albumWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 50px 0px;
+        height: 400px;
+        gap: 100px;
+        @include mobile{
+            flex-direction: column;
+            gap: 40px;
+            margin: 0px;
+           }
+        h1{
+            color: rgb(195, 195, 195);
+            font-weight: 200;
+            letter-spacing: 3px;
+            
+        }
+        .albumLeft{
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            img{
+                width: 400px;
+                height: 400px;
+                @include mobile{
+                    width: 200px;
+                    height: 200px;
+                   }
+            }
+        }
+        .albumRight{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            color: white;
+            height: 100%;
+            gap: 15px;
+            @include mobile{
+                align-items: center;
+                gap: 5px;
+                height: max-content;
+               }
+            .iconCont{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                .albumIcon{
+                    cursor: pointer;
+                    
+                    color: tomato;
+                }
+                .albumIconSpot{
+                    transform: rotate(270deg);
+                    cursor: pointer;
+                    color: greenyellow;
+                }
+            }
+                
+        }
+    }
+}
