@@ -2,10 +2,8 @@ import React from 'react'
 import Albums from '../components/Albums/Albums'
 import Concerts from '../components/Concerts/Concerts'
 import Contact from '../components/Contact/Contact'
-import Footer from '../components/Footer/Footer'
-import Hero from '../components/hero/hero'
+import Hero from '../components/hero/Hero'
 import Music from '../components/Music/Music'
-import Navbar from '../components/Navbar/Navbar'
 import Band from '../components/TheBand/Band'
 
 
