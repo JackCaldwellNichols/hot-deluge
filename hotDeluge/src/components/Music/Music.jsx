@@ -12,7 +12,7 @@ const Music = () => {
             <div className='iconContainer'>
                 <Link to="https://www.youtube.com/channel/UCGTneg7Ia6SijfEyME6a-kA" className='iconContainerLink'>
                     <h6>
-                        Watch on Youtube
+                        Ver en Youtube
                     </h6>
                      <YouTube className='videoIcon'/> 
                 </Link>

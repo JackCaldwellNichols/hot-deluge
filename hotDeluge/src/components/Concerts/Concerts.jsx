@@ -4,8 +4,8 @@ import {shows} from '../../data'
 
 const Concerts = () => {
   return (
-    <div className='concerts'>
-      <h1>Upcoming Shows</h1>
+    <div className='concerts' id='shows'>
+      <h1>Conciertos</h1>
         <div className='concertsWrapper'>
         {shows.map((show) => (
             <div className="showsList">

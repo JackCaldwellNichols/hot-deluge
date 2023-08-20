@@ -2,20 +2,45 @@
 
 
 .hero{
-    background-image: url('https://scontent.fmad6-1.fna.fbcdn.net/v/t1.6435-9/169268513_164948592152442_616418468724877503_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KXWOecfkUJgAX-lPWYC&_nc_ht=scontent.fmad6-1.fna&oh=00_AfBN-m9E5hylRBKbb-i18App1bV7FwPmLNoTt21IrmjSvA&oe=6473095D');
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
     background-size: 100%;
     background-position: center;
-    height: calc(100vh - 60px);
+    height: calc(90vh - 60px);
     object-fit: cover;
     @include mobile{
         height: calc(40vh - 60px);
        }
-    
     .heroWrapper{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 100%;
-       
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            @include mobile{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+               }
+        }
+        h1 {
+            position: absolute;
+            color: red;
+            font-size: 70px;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            letter-spacing: 2px;
+            @include mobile{
+                font-size: 35px;
+                }
+        }
+
+        
     }   
 }

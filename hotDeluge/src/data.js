@@ -30,7 +30,7 @@ export const members = [
         id: 2,
         name: "Anna",
         plays: "Lead Singer",
-        desc: "Anna, alma discreta pero poderosa de Hot Deluge. Es ucraniana, tiene experiencia en la escena musical de Kyiv.Su voz... pues eso,su voz. Escribió varias canciones del disco Open the floodgates junto a Borja",
+        desc: ", alma discreta pero poderosa de Hot Deluge. Es ucraniana, tiene experiencia en la escena musical de Kyiv.Su voz... pues eso,su voz. Escribió varias canciones del disco Open the floodgates junto a Borja",
         img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682677974/Screenshot_2023-04-28_at_12.31.59_ezqodj.png",
         link: "https://www.instagram.com/annychka_ko/",
         photos: [
@@ -56,7 +56,7 @@ export const members = [
         id: 3,
         name: "Sergio",
         plays: "Bass Guitar",
-        desc: "Sergio es nuestro bajista, junto con Oscar la base rítmica de HD! Ha tocado en varias bandas de distintos estilos, desde pop Indie al blues. Sus líneas de bajo son el soporte perfecto para que las guitarras y la voz brillen en cada canción. Y además es buena gente.",
+        desc: "es nuestro bajista, junto con Oscar la base rítmica de HD! Ha tocado en varias bandas de distintos estilos, desde pop Indie al blues. Sus líneas de bajo son el soporte perfecto para que las guitarras y la voz brillen en cada canción. Y además es buena gente.",
         img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682678723/Screenshot_2023-04-28_at_12.45.08_oxcjlq.png",
         link: "https://www.instagram.com/sergiusbasss/",
         photos: [
@@ -83,9 +83,28 @@ export const members = [
         id: 4,
         name: "Oscar",
         plays: "Drums",
-        desc: "Oscar es un Bateria venezolano con un “pocket” que nos aporta una potente base rítmica y mucho groovee a la banda.",
+        desc: "es un Bateria venezolano con un “pocket” que nos aporta una potente base rítmica y mucho groovee a la banda.",
         img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682678877/Screenshot_2023-04-28_at_12.47.43_itobj3.png",
-        link: "https://www.instagram.com/ojguerrero/"
+        link: "https://www.instagram.com/ojguerrero/",
+        photos: [
+            {
+                id: 12,
+                img: 'https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682687763/Screenshot_2023-04-28_at_15.12.28_whrtt5.png'
+            },
+            {
+                id: 24,
+                img: 'https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682687760/Screenshot_2023-04-28_at_15.15.19_eublql.png'
+            },
+            {
+                id: 4341,
+                img: 'https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682687756/Screenshot_2023-04-28_at_15.12.37_uzwqb2.png'
+            },
+            {
+                id: 61,
+                img: 'https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682687751/Screenshot_2023-04-28_at_15.15.05_zfueeu.png'
+            }
+        
+        ]
     },
 
 ]

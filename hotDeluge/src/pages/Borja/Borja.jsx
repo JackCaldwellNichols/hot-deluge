@@ -20,8 +20,6 @@ useEffect(() => {
     })
 }, [bandMate])
 
-console.log(bandMate.photos)
-
   return (
     <div className='bio'>
            <h2 className='bioTitle'>{bandMate.name}</h2>
@@ -30,10 +28,9 @@ console.log(bandMate.photos)
                     <img src={bandMate.img}/>
                 </div>
                 <div className="right">
-                    <h3>Name: {bandMate.name}</h3>
-                    <h4>About: {bandMate.desc}</h4>
-                    <h5>Plays: {bandMate.plays}</h5>
-                    <p>Follow here:<a href={bandMate.link}>
+                    <h4>{bandMate.name} {bandMate.desc}</h4>
+                    <h5>Intrumento: {bandMate.plays}</h5>
+                    <p>Síguale:<a href={bandMate.link} target='_blank'>
                         <InstagramIcon className='bioIcon'/>
                         </a>
                     </p>

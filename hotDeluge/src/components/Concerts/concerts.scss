@@ -3,22 +3,37 @@
 .concerts{
     background-color: black;
     height: max-content;
-    padding: 20px;
-    h1{
+    color: white;
+    font-family: 'Nunito Sans';
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    @include mobile{
         text-align: center;
+        align-items: center;
+
+        }
+    h1{
         color: rgb(195, 195, 195);
         font-weight: 200;
-    
+        margin: 70px 0px;
         letter-spacing: 3px;
+        padding: 0px 100px;
+        @include mobile{
+            text-align: center;
+            
+            }
     }
     .concertsWrapper{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 80px 0px;
+        padding: 0px 100px;
         @include mobile{
            margin: 0;
-           
+           flex-direction: column;
+           padding: 0px ;
            }
         
     .showsList{
@@ -36,8 +51,9 @@
             align-items: center;
             justify-content: center;
             border: none;
-            gap: 5px;
-           
+            gap: 10px;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
            }
             .concertBtn{
                 padding: 10px;
@@ -46,9 +62,11 @@
                 background-color: black;
                 border: 1px solid white;
                 transition: 0.3s ease-in;
+                margin: 5px 0px;
                 &:hover{
                     background-color: white;
                     color: black;
+                  
                     
                 }
         }

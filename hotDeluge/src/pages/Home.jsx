@@ -19,7 +19,7 @@ const Home = () => {
         <Albums />
         <Concerts />
         <Contact />
-        <Footer />
+
     </div>
   )
 }

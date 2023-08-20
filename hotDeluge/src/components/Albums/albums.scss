@@ -3,81 +3,94 @@
 .albums {
     background-color: black;
     height: max-content;
-    padding: 40px;
+    color: white;
     font-family: 'Nunito Sans';
+    padding: 40px;
     @include mobile{
         padding: 20px;
        }
-    h1{
-        color: rgb(195, 195, 195);
-        font-weight: 200;
-        letter-spacing: 3px;
-        text-align: center;
-    }
     .albumWrapper{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        padding: 10px;
-        margin: 50px 0px;
-        height: 400px;
-        gap: 100px;
+        padding: 0px 100px;
+        flex-direction: column;
         @include mobile{
-            flex-direction: column;
-            gap: 40px;
-            margin: 0px;
+            padding: 0px;
            }
         h1{
             color: rgb(195, 195, 195);
             font-weight: 200;
+            margin: 70px 0px;
             letter-spacing: 3px;
-            
         }
-        .albumLeft{
-            flex: 1;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            img{
-                width: 400px;
-                height: 400px;
-                @include mobile{
-                    width: 200px;
-                    height: 200px;
-                   }
-            }
-        }
-        .albumRight{
-            flex: 1;
-            display: flex;
+        @include mobile{
             flex-direction: column;
+            gap: 40px;
+            margin: 0px;
+            align-self: center;
+           }
+           .albumContent{
+            display: flex;
+            justify-content: space-around;
             align-items: flex-start;
-            justify-content: flex-start;
-            color: white;
-            height: 100%;
-            gap: 15px;
+            width: 100%;
+            gap: 200px;
             @include mobile{
-                align-items: center;
-                gap: 5px;
-                height: max-content;
-               }
-            .iconCont{
-                display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                gap: 10px;
-                .albumIcon{
-                    cursor: pointer;
-                    
-                    color: tomato;
-                }
-                .albumIconSpot{
-                    transform: rotate(270deg);
-                    cursor: pointer;
-                    color: greenyellow;
-                }
+                gap: 50px;
             }
-                
-        }
+                    .albumLeft{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        flex: 1;
+                        order: 1;
+                        img{
+                            width: 400px;
+                            height: 400px;
+                            @include mobile{
+                                width: 200px;
+                                height: 200px;
+                            }
+                        }
+                    }
+                    .albumRight{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        justify-content: center;
+                        color: white;
+                        height: 100%;
+                        gap: 15px;
+                        flex: 1;
+                        
+                        @include mobile{
+                            align-items: flex-start;
+                            gap: 5px;
+                            height: max-content;
+                        }
+                        .iconCont{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 10px;
+                            
+                            .albumIcon{
+                                cursor: pointer;
+                                
+                                color: tomato;
+                            }
+                            .albumIconSpot{
+                                transform: rotate(270deg);
+                                cursor: pointer;
+                                color: greenyellow;
+                            }
+                        }
+                            
+                    }
+                }
     }
 }

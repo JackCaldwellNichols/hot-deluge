@@ -3,15 +3,15 @@ import './contact.scss'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
+      <h1 className='contactTitle'>Contacto</h1>
         <div className="contactWrapper">
             <div className="contactLeft">
             <form>
-                <input placeholder='name' type='text' required/>
-                <input placeholder='Email' type='email' required/>
-                <input placeholder='subject' type='text' />
-                <textarea placeholder='Your message' rows={7} cols={30}/>
-                <button className='contactBtn' type='submit'>Send</button>
+                <input placeholder='Nombre' type='text' required/>
+                <input placeholder='Correo ' type='email' required/>
+                <textarea placeholder='Mensaje' rows={7} cols={30}/>
+                <button className='contactBtn' type='submit'>Enviar</button>
             </form>
             </div>
             <div className="contactRight">

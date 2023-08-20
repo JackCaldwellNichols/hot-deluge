@@ -6,14 +6,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 30px 100px;
     font-family: 'Nunito Sans';
-
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+       
+       }
     h2{
-      
         color: rgb(195, 195, 195);
         font-weight: 200;
         letter-spacing: 3px;
+        margin: 50px 0px;
     }
     .bioTop{
         padding: 40px;
@@ -31,8 +37,7 @@
             flex: 1;
             display: flex;
             justify-content: center;
-            align-items: center;
-            margin: 0px 40px;
+            align-items: flex-start;
             img{
                 height: 500px;
                 object-fit: cover;
@@ -54,9 +59,8 @@
             gap: 10px;
             color: white;
             margin: 0px 40px;
-            font-weight: 500;
             @include mobile{
-                align-items: center;
+                align-items: flex-start;
                 justify-content: center;
                 text-align: justify;
                
@@ -81,21 +85,20 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        flex-wrap: wrap;
         @include mobile{
             display: none;
            }
         .photoContainer{
             height: 300px;
-            margin: 10px 40px;
+            margin: 20px 40px;
             .memberPhotos{
                 height: 100%;
                 object-fit: cover;
                 transition: 0.8s ease;
                 width: 250px;
                 border-radius: 10px;
-
                 &:hover{
-                    transform: scale(1.2);
                     opacity: 0.8;
                 }
             }

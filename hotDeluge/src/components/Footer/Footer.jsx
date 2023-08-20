@@ -14,6 +14,7 @@ const Footer = () => {
         <a  href='https://www.instagram.com/hotdeluge/' className="icon" target='_blank'><InstagramIcon /></a>
         <a href= 'https://open.spotify.com/artist/6TKKF8UVJ54bEqW5oL0ioX' target='_blank' className="icon"><HeadphonesIcon /></a>
       </div>
+      <span>www.hotdeluge.com</span>
     </div>
   )
 }
