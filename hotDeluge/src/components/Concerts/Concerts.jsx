@@ -15,9 +15,13 @@ const Concerts = () => {
               <span className="date">{show.date}</span>
               <span className="where">{show.name}</span>
 
-              <a href="http://www.woutick.es/evento/25039/entradas-hot-deluge-en-el-perro-malasana-madrid">
-                <button className="concertBtn">Tickets</button>
-              </a>
+              {show.link === "" ? (
+                <span>Entradas no disponible</span>
+              ) : (
+                <a href={show.link} target="_blank" rel="noreferrer">
+                  <button className="concertBtn">Entradas</button>
+                </a>
+              )}
             </div>
           ))
         )}

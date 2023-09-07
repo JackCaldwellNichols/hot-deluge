@@ -114,4 +114,12 @@ export const shows = [
   //     price1: 10,
   //     price2: 12,
   //   },
+  {
+    id: 1,
+    name: "Molpeceres, Madrid",
+    date: "14/10/2023",
+    price1: "TBC",
+    price2: "TBC",
+    link: "",
+  },
 ];
