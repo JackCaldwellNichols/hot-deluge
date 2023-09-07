@@ -130,4 +130,12 @@ export const shows = [
     price2: "TBC",
     link: "",
   },
+  {
+    id: 3,
+    name: "Test 2, Madrid",
+    date: "15/10/2023",
+    price1: "TBC",
+    price2: "TBC",
+    link: "",
+  },
 ];
