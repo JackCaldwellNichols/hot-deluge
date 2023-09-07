@@ -1,24 +1,29 @@
-import React from 'react'
-import './concerts.scss'
-import {shows} from '../../data'
+import React from "react";
+import "./concerts.scss";
+import { shows } from "../../data";
 
 const Concerts = () => {
   return (
-    <div className='concerts' id='shows'>
+    <div className="concerts" id="shows">
       <h1>Conciertos</h1>
-        <div className='concertsWrapper'>
-        {shows.map((show) => (
-            <div className="showsList">
-                <span className='date'>{show.date}</span>
-                <span className='where'>{show.name}</span>
+      <div className="concertsWrapper">
+        {!shows.length ? (
+          <div className="showsList">No hay conciertos próximos.</div>
+        ) : (
+          shows.map((show, index) => (
+            <div className="showsList" key={index}>
+              <span className="date">{show.date}</span>
+              <span className="where">{show.name}</span>
 
-                <a href='http://www.woutick.es/evento/25039/entradas-hot-deluge-en-el-perro-malasana-madrid'><button className='concertBtn'>Tickets</button></a>
+              <a href="http://www.woutick.es/evento/25039/entradas-hot-deluge-en-el-perro-malasana-madrid">
+                <button className="concertBtn">Tickets</button>
+              </a>
             </div>
-        ))
-        }
-        </div>
+          ))
+        )}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Concerts
+export default Concerts;

@@ -1,18 +1,17 @@
-import React from 'react'
-import './member.scss'
-import { Link } from 'react-router-dom'
+import "./member.scss";
+import { Link } from "react-router-dom";
 
-const Member = ({member}) => {
+const Member = ({ member }) => {
   return (
-    <div className='member'>
-      <div className='memberCard'>
+    <div className="member">
+      <div className="memberCard">
         <Link to={`/member/${member.name}`}>
-            <img src={member.img} alt={member.name}/>
+          <img src={member.img} alt={member.name} />
         </Link>
         <h5>{member.name}</h5>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Member
+export default Member;

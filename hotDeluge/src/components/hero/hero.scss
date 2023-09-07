@@ -1,46 +1,43 @@
 @import "../../global.scss";
 
+.hero {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  background-position: center;
+  height: calc(90vh - 60px);
+  object-fit: cover;
 
-.hero{
-    display: flex;
-    background-color: black;
+  @include mobile {
+    height: calc(40vh - 60px);
+  }
+  .heroWrapper {
+    height: 100%;
     align-items: center;
     justify-content: center;
-    background-size: 100%;
-    background-position: center;
-    height: calc(90vh - 60px);
-    object-fit: cover;
-    @include mobile{
-        height: calc(40vh - 60px);
-       }
-    .heroWrapper{
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        position: relative;
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            @include mobile{
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-               }
-        }
-        h1 {
-            position: absolute;
-            color: red;
-            font-size: 70px;
-            font-family: 'Montserrat';
-            font-weight: bold;
-            letter-spacing: 2px;
-            @include mobile{
-                font-size: 35px;
-                }
-        }
-
-        
-    }   
+    display: flex;
+    position: relative;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      @include mobile {
+        display: none;
+      }
+    }
+    h1 {
+      position: absolute;
+      color: red;
+      font-size: 80px;
+      font-family: "Rock Salt";
+      font-weight: bold;
+      letter-spacing: 2px;
+      @include mobile {
+        font-size: 40px;
+      }
+    }
+  }
 }

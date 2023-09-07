@@ -1,96 +1,95 @@
 @import "../../global.scss";
 
 .albums {
-    background-color: black;
-    height: max-content;
-    color: white;
-    font-family: 'Nunito Sans';
-    padding: 40px;
-    @include mobile{
-        padding: 20px;
-       }
-    .albumWrapper{
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        padding: 0px 100px;
-        flex-direction: column;
-        @include mobile{
-            padding: 0px;
-           }
-        h1{
-            color: rgb(195, 195, 195);
-            font-weight: 200;
-            margin: 70px 0px;
-            letter-spacing: 3px;
-        }
-        @include mobile{
-            flex-direction: column;
-            gap: 40px;
-            margin: 0px;
-            align-self: center;
-           }
-           .albumContent{
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            width: 100%;
-            gap: 200px;
-            @include mobile{
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 50px;
-            }
-                    .albumLeft{
-                        display: flex;
-                        justify-content: flex-start;
-                        align-items: center;
-                        flex: 1;
-                        order: 1;
-                        img{
-                            width: 400px;
-                            height: 400px;
-                            @include mobile{
-                                width: 200px;
-                                height: 200px;
-                            }
-                        }
-                    }
-                    .albumRight{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-end;
-                        justify-content: center;
-                        color: white;
-                        height: 100%;
-                        gap: 15px;
-                        flex: 1;
-                        
-                        @include mobile{
-                            align-items: flex-start;
-                            gap: 5px;
-                            height: max-content;
-                        }
-                        .iconCont{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            gap: 10px;
-                            
-                            .albumIcon{
-                                cursor: pointer;
-                                
-                                color: tomato;
-                            }
-                            .albumIconSpot{
-                                transform: rotate(270deg);
-                                cursor: pointer;
-                                color: greenyellow;
-                            }
-                        }
-                            
-                    }
-                }
+  background-color: black;
+  height: max-content;
+  color: white;
+  font-family: "Nunito Sans";
+  padding: 40px;
+  @include mobile {
+    padding: 20px;
+  }
+  .albumWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 100px;
+    flex-direction: column;
+    @include mobile {
+      padding: 0px;
+      margin: 40px 0px;
     }
+    h1 {
+      color: rgb(195, 195, 195);
+      font-weight: 200;
+      margin: 70px 0px;
+      letter-spacing: 3px;
+      @include mobile {
+        align-self: center;
+        margin: 50px 0px;
+      }
+    }
+
+    .albumContent {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100%;
+      gap: 200px;
+      @include mobile {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+      }
+      .albumLeft {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1;
+        order: 1;
+        img {
+          width: 400px;
+          height: 400px;
+          @include mobile {
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+      .albumRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        color: white;
+        height: 100%;
+        gap: 15px;
+        flex: 1;
+
+        @include mobile {
+          align-items: flex-start;
+          gap: 5px;
+          height: max-content;
+        }
+        .iconCont {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          .albumIcon {
+            cursor: pointer;
+
+            color: tomato;
+          }
+          .albumIconSpot {
+            transform: rotate(270deg);
+            cursor: pointer;
+            color: greenyellow;
+          }
+        }
+      }
+    }
+  }
 }

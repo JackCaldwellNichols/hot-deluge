@@ -1,108 +1,125 @@
 @import "../../global.scss";
-
-.bio{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 100px;
-    font-family: 'Nunito Sans';
-    @include mobile{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 10px;
-       
-       }
-    h2{
-        color: rgb(195, 195, 195);
-        font-weight: 200;
-        letter-spacing: 3px;
-        margin: 50px 0px;
-    }
-    .bioTop{
-        padding: 40px;
-        display: flex;
-        justify-content:center;
-        align-items: flex-start;
-        @include mobile{
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            padding: 10px;
-           
-           }
-        .left{
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            img{
-                height: 500px;
-                object-fit: cover;
-                border-radius: 20px;
-                @include mobile{
-                    height: 300px;
-                    margin-bottom: 20px;
-                   }
-            }
-        
-        }
-        .right{
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            height: 100%;
-            justify-content: flex-start;
-            gap: 10px;
-            color: white;
-            margin: 0px 40px;
-            @include mobile{
-                align-items: flex-start;
-                justify-content: center;
-                text-align: justify;
-               
-               }
-            a{
-                color: white;
-                .bioIcon {
-                    font-size: 30px;
-                    margin-left: 10px;
-                    &:hover{
-                        color: tomato;
-                      
-                    }
-                }
-        
-            }
-       
-        }
-    }
-    .bioBottom{
-        padding: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        @include mobile{
-            display: none;
-           }
-        .photoContainer{
-            height: 300px;
-            margin: 20px 40px;
-            .memberPhotos{
-                height: 100%;
-                object-fit: cover;
-                transition: 0.8s ease;
-                width: 250px;
-                border-radius: 10px;
-                &:hover{
-                    opacity: 0.8;
-                }
-            }
-        }
-    }
+nav {
+  height: 60px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .navLogo {
+    height: 60px;
+    padding: 0px 30px;
+  }
 }
 
+.bio {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 100px;
+  font-family: "Nunito Sans";
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  h2 {
+    color: rgb(195, 195, 195);
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 50px 0px;
+  }
+  .bioTop {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 10px;
+    }
+    .left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      img {
+        height: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+        @include mobile {
+          height: 300px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 100%;
+      justify-content: flex-start;
+      gap: 10px;
+      color: white;
+      margin: 0px 40px;
+      @include mobile {
+        align-items: flex-start;
+        justify-content: center;
+        text-align: justify;
+      }
+      a {
+        color: white;
+        .bioIcon {
+          font-size: 30px;
+          margin-left: 10px;
+          &:hover {
+            color: tomato;
+          }
+        }
+      }
+    }
+  }
+  .backBtn {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+  .bioBottom {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    @include mobile {
+      display: none;
+    }
+    .photoContainer {
+      height: 300px;
+      margin: 20px 40px;
+      .memberPhotos {
+        height: 100%;
+        object-fit: cover;
+        transition: 0.8s ease;
+        width: 250px;
+        border-radius: 10px;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
