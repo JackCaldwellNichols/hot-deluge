@@ -40,7 +40,7 @@ const Borja = () => {
             <h4>
               {bandMate.name} {bandMate.desc}
             </h4>
-            <h5>Intrumento: {bandMate.plays}</h5>
+            <h5>Instrumento: {bandMate.plays}</h5>
             <p>
               Síguale:
               <a href={bandMate.link} target="_blank" rel="noreferrer">
