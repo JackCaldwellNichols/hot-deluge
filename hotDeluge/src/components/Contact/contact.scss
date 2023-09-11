@@ -75,8 +75,7 @@
           margin-top: 20px;
           transition: 0.5s ease-in-out;
           &:hover {
-            background-color: white;
-            color: black;
+            opacity: 0.7;
           }
           @include mobile {
             padding: 5px;
@@ -89,14 +88,18 @@
     .contactRight {
       flex: 1;
       background-color: black;
+      flex-direction: column;
       opacity: 0.5;
       height: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: flex-start;
       border-radius: 10px;
+      gap: 40px;
       @include mobile {
         margin-top: 10px;
+        width: 80%;
+        gap: 20px;
       }
       p {
         color: white;
@@ -104,6 +107,7 @@
         @include mobile {
           margin-top: 20px;
           font-size: 15px;
+          text-align: center;
         }
       }
     }

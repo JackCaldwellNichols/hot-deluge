@@ -37,8 +37,8 @@ const Band = () => {
         <div className="bandMembers">
           <h1>Los Miembros</h1>
           <div className="memberWrapper">
-            {members.map((member) => (
-              <Member member={member} />
+            {members.map((member, index) => (
+              <Member member={member} key={index} />
             ))}
           </div>
         </div>
