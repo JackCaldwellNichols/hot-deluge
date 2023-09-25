@@ -116,10 +116,10 @@ export const shows = [
   //   },
   {
     id: 1,
-    name: "Molpeceres, Madrid",
+    name: "Molpeceres, Valladolid",
     date: "14/10/2023",
-    price1: "TBC",
+    price1: "Desde 20€",
     price2: "TBC",
-    link: "",
+    link: "https://www.eventbrite.es/e/entradas-molpefest-720597024097?aff=oddtdtcreator",
   },
 ];
