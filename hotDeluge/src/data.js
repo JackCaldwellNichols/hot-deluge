@@ -105,7 +105,7 @@ export const members = [
   },
   {
     id: 5,
-    name: "Rubesn",
+    name: "Ruben",
     plays: "Guitarra",
     desc: "",
     img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1695654888/Untitled_design_2_zknbns.png",
