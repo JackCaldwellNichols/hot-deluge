@@ -21,7 +21,8 @@ const Borja = () => {
         setPhotos(member.photos);
       }
     });
-  }, [bandMate]);
+  }, [bandMate, path]);
+  console.log(bandMate);
 
   return (
     <>

@@ -103,6 +103,15 @@ export const members = [
       },
     ],
   },
+  {
+    id: 5,
+    name: "Rubesn",
+    plays: "Guitarra",
+    desc: "",
+    img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1695654888/Untitled_design_2_zknbns.png",
+    link: "https://www.instagram.com/ruarranz_/?igshid=MzRlODBiNWFlZA%3D%3D",
+    photos: [],
+  },
 ];
 
 export const shows = [
