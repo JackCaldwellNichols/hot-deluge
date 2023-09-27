@@ -81,7 +81,7 @@ export const members = [
     id: 4,
     name: "Oscar",
     plays: "Batería",
-    desc: "es un Bateria venezolano con un “pocket” que nos aporta una potente base rítmica y mucho groovee a la banda.",
+    desc: "es un Bateria venezolano con un “pocket” que nos aporta una potente base rítmica y mucho groove a la banda.",
     img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1682678877/Screenshot_2023-04-28_at_12.47.43_itobj3.png",
     link: "https://www.instagram.com/ojguerrero/",
     photos: [
@@ -106,8 +106,8 @@ export const members = [
   {
     id: 5,
     name: "Ruben",
-    plays: "Guitarra",
-    desc: "",
+    plays: "Guitarra y coros",
+    desc: "es la última incorporación a la banda, ha llegado tras tocar en varios grupos para complementar la guitarra de Darrell. Aunque la guitarra eléctrica es su pasión ha descubierto que cantar tiene su punto.",
     img: "https://res.cloudinary.com/dzcz4e9nd/image/upload/v1695654888/Untitled_design_2_zknbns.png",
     link: "https://www.instagram.com/ruarranz_/?igshid=MzRlODBiNWFlZA%3D%3D",
     photos: [],

@@ -18,19 +18,19 @@ const Band = () => {
             <br />
             <br />
             Compuestas durante la pandemia, sus canciones reflejan crítica
-            política y social, crisis personales y sensualidad. Nuestro primer
+            política y social, crisis personales y sensualidad. Su primer
             single, “20 Bucks”, sobre la muerte de George Floyd, sonó en Radio 3
-            en el programa “Hoy empieza todo”. Hot Deluge somos Annya (voz
+            en el programa “Hoy empieza todo”. Hot Deluge son Annya (voz
             principal y teclado), Darrell (guitarra, coros), Sergio (bajo),
             Óscar (batería), y Rubén (guitarra, coros), que se unió en 2023.
             <br />
             <br />
-            Hemos tocado en varias de las principales salas de la escena
+            Han tocado en varias de las principales salas de la escena
             indie/alternativa de Madrid - Café Palma, El Perro, Contraclub,
-            Elefante Blanco, Rockville. En otoño de 2023 sacaremos nuestro
-            siguiente EP, con un sonido más oscuro y duro, en parte marcado por
-            la guerra en Ucrania y también por la búsqueda existencial a través
-            de la música Cantamos en inglés, con algunos temas en ucraniano y
+            Elefante Blanco, Rockville. En otoño de 2023 sacaron su siguiente
+            EP, con un sonido más oscuro y duro, en parte marcado por la guerra
+            en Ucrania y también por la búsqueda existencial a través de la
+            música. Cantamos en inglés, con algunos temas en ucraniano y
             español.
           </h5>
         </div>
