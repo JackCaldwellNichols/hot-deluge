@@ -125,10 +125,10 @@ export const shows = [
   //   },
   {
     id: 1,
-    name: "Molpeceres, Valladolid",
-    date: "14/10/2023",
-    price1: "Desde 20€",
+    name: "Los Clásicos, Cuenca",
+    date: "27/01/2024",
+    price1: "TBC",
     price2: "TBC",
-    link: "https://www.eventbrite.es/e/entradas-molpefest-720597024097?aff=oddtdtcreator",
+    link: "",
   },
 ];
