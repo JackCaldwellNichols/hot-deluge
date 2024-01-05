@@ -127,8 +127,8 @@ export const shows = [
     id: 1,
     name: "Los Clásicos, Cuenca",
     date: "27/01/2024",
-    price1: "TBC",
+    price1: "9",
     price2: "TBC",
-    link: "",
+    link: "https://www.woutick.es/evento/26652/entradas-hot-deluge-en-los-clasicos-cuenca-27-enero?busqueda=hot%20deluge&place=31859&date=27-01-2024&time=22:30&showId=45732",
   },
 ];
